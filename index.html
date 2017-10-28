@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Clone</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <ul id='nav-right'>
+        <li><a href="#">Gmail</li>
+        <li><a href="#">Images</li>
+        <li><a href="#">Sign In</li>
+        <li><input type="button" id="sign-in" value="Sign In" /></li>
+      </ul>
+
+      <script type="text/javascript">
+      function focusIt()
+      {
+        var my_search_box = document.getElementById("search-box");
+        my_search_box.focus();
+      }
+      onload = focusIt;
+      </script>
+    </header>
+
+    <div id="content">
+      <div id="logo">
+        <img src="img/logo.png" alt="Google Logo" width="350" />
+      </div>
+
+      <div id="search">
+        <input id="search-box" type="text" name="search" />
+      </div>
+
+      <div id="search-buttons">
+        <input type="button" class="button" name="google" value="Google Search" />
+        <input type="button" class="button" name="google" value="I'm Feeling Great" />
+      </div>
+    </div>
+
+    <footer>
+      <div id="footer-left">
+        <ul>
+          <li>Advertising</li>
+          <li>Business</li>
+          <li>About</li>
+        </ul>
+      </div>
+      
+      <div id="footer-right">
+        <ul>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Settings</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
